@@ -8,7 +8,10 @@ namespace Project1.Controllers
 {
     public class AccountController : Controller
     {
-
+        public IActionResult Register()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
